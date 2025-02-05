@@ -1,0 +1,38 @@
+{
+
+  "name": "backend",
+
+  "version": "1.0.0",
+
+  "main": "Backend.js",
+
+  "type": "module",
+
+  "scripts": {
+
+    "start": "nodemon Backend/Backend.js",
+    "build" : "npm install && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "dev": "nodemon Backend/Backend.js"
+
+  },
+
+  "dependencies": {
+
+    "bcrypt": "^5.1.1",
+
+    "cors": "^2.8.5",
+
+    "express": "^4.21.0",
+
+    "jsonwebtoken": "^9.0.2",
+
+    "mongodb": "^6.9.0",
+
+    "mongoose": "^8.7.0",
+
+    "nodemon": "^3.1.7"
+
+  }
+
+}
+
